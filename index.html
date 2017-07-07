@@ -9,25 +9,50 @@
 	<link rel="stylesheet" type="text/css" href="assets/css/styles.css">
 </head>
 <body>
-	<!--<header>
-		<div class="menu-nav">
-			<a href="#" class="btn-menu"><span class="glyphicon glyphicon-align-justify"></span></a>
-		</div>
 
-		<nav>
-			<ul>
-				<li><h1>Pokedex.org</h1></li>
-				<hr>
-				<li><a href="#">Pokemón</a></li>
-				<li><a href="#">About</a></li>
+
+	<div id="wrapper">
+		<div class="overlay"></div>
+
+		<!-- Sidebar -->
+		<nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+			<ul class="nav sidebar-nav">
+				<li class="sidebar-brand">
+					<a href="#">Pokedex.org</a>
+				</li>
+				<li>
+					<a href="#">Pokemón</a>
+				</li>
+				
+				<li>
+					<a href="https://twitter.com/maridlcrmn">About</a>
+				</li>
 			</ul>
 		</nav>
-	</header>
--->
-<div class="container">
-	<div class="row">
-		<div class="col-sm-3 col-md-3">
-			<div class="panel-group" id="accordion">
+		<!-- /#sidebar-wrapper -->
+
+		<!-- Page Content -->
+		<div id="page-content-wrapper">
+			<button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+				<span class="hamb-top"></span>
+				<span class="hamb-middle"></span>
+				<span class="hamb-bottom"></span>
+			</button>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-8 col-lg-offset-2">
+						<h1>Pokedex.org</h1>
+					</div>
+				</div>
+			</div>
+		</div>
+        <!-- /#pa
+
+
+<!--
+	<div class="container">
+		<div class="row">
+			<div class="col-sm-3 col-md-3 text-left">
 				<div class="panel panel-default">
 					<div class="panel-heading">
 						<h4 class="panel-title">
@@ -48,23 +73,15 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-sm-9 col-md-9">
-			<div class="well">
-				<h1>
-					Accordion Menu With Icon</h1>
-					Admin Dashboard Accordion Menu
-				</div>
-			</div>
-		</div>
 	</div>
 
+-->
 
+<!--script-->
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-	<!--script-->
-	<!-- jQuery library -->
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-	<script type="text/javascript" src="assets/js/main.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+<script type="text/javascript" src="assets/js/main.js"></script>
 </body>
 </html>

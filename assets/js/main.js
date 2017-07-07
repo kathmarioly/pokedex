@@ -1,24 +1,28 @@
-$(document).ready(main);
+$(document).ready(function () {
+	var trigger = $('.hamburger'),
+	overlay = $('.overlay'),
+	isClosed = false;
 
-var contador = 1;
+	trigger.click(function () {
+		hamburger_cross();      
+	});
 
-function main () {
-	$('.menu_bar').click(function(){
-		if (contador == 1) {
-			$('nav').animate({
-				left: '0'
-			});
-			contador = 0;
-		} else {
-			contador = 1;
-			$('nav').animate({
-				left: '-100%'
-			});
+	function hamburger_cross() {
+
+		if (isClosed == true) {          
+			overlay.hide();
+			trigger.removeClass('is-open');
+			trigger.addClass('is-closed');
+			isClosed = false;
+		} else {   
+			overlay.show();
+			trigger.removeClass('is-closed');
+			trigger.addClass('is-open');
+			isClosed = true;
 		}
-	});
+	}
 	
-	// Mostramos y ocultamos submenus
-	$('.submenu').click(function(){
-		$(this).children('.children').slideToggle();
-	});
-}
+	$('[data-toggle="offcanvas"]').click(function () {
+		$('#wrapper').toggleClass('toggled');
+	});  
+});
