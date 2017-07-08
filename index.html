@@ -18,18 +18,19 @@
 		<nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
 			<ul class="nav sidebar-nav">
 				<li class="sidebar-brand">
-					<a href="#">Pokedex.org</a>
+					<h1 class="nav-titulo">Pokedex.org</h1>
 				</li>
+				<hr>
 				<li>
 					<a href="#">Pokemón</a>
 				</li>
-				
+
 				<li>
 					<a href="https://twitter.com/maridlcrmn">About</a>
 				</li>
 			</ul>
 		</nav>
-		
+
 
 		<!-- Page Content -->
 
@@ -42,7 +43,48 @@
 				</button>
 			</div>
 
-			<!--buscador-->
+
+
+
+
+			<header>
+				<nav>
+					
+				</nav>
+			</header>
+			<section class="section-one">
+				<div class="container-fluid">
+					<div class="row">
+						<div class="col-lg-12 col-md-12 col-xs-12 align text-center">
+							<h1>Pokédex</h1>               
+						</div>            
+					</div>
+					<div class="row">
+						<div class="col-lg-6 col-md-6 col-xs-6 col-lg-offset-1">
+							<i class="fa fa-search" aria-hidden="true"><input type="text" placeholder="Search"></i>
+						</div>
+						<div class="col-lg-1 col-md-4 col-xs-4">
+							<p class="text-center">A-Z</p>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Creo una sección en la cual se imprimiran los datos generados en js por json -->
+			<section class="section-two">
+				<div class="container-fluid">
+					<div class="row"> 
+						<div class="col-lg-12 col-md-12 col-xs-12 text-center">
+							<div class="pokemons"><div class="pokprint"></div></div>
+							
+						</div>            
+					</div>
+				</div>
+			</section>
+
+
+
+			<!--buscador
+
 			<section class="buscador">
 				<div class="container-fluid">
 					<div class="row">
@@ -60,28 +102,28 @@
 				</div>
 			</section>
 
+		-->
 
+		<!--  datos generados por Json en Jquery -->
+		<section class="section-two">
+			<div class="container-fluid">
+				<div class="row"> 
+					<div class="col-lg-12 col-md-12 col-xs-12 text-center">
+						<div class="pokemons"><div class="pokprint"></div></div>
 
-			<!--  datos generados por Json en Jquery -->
-			<section class="section-two">
-				<div class="container-fluid">
-					<div class="row"> 
-						<div class="col-lg-12 col-md-12 col-xs-12 text-center">
-							<div class="pokemons"><div class="pokprint"></div></div>
-
-						</div>			
-					</div>
+					</div>			
 				</div>
-			</section>
+			</div>
+		</section>
 
 
-			<!--script-->
-			<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+		<!--script-->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 
-			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
-			<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-			<!--Enlazado con mi js-->
-			<script type="text/javascript" src="assets/js/main.js"></script>
-		</body>
-		</html>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+		<!--Enlazado con mi js-->
+		<script type="text/javascript" src="assets/js/main.js"></script>
+	</body>
+	</html>

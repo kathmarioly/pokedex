@@ -1,6 +1,7 @@
 body {
 	position: relative;
 	overflow-x: hidden;
+	background-color: #EEEEEE;
 }
 body,
 html { height: 100%;}
@@ -273,9 +274,13 @@ html { height: 100%;}
 	width: 100%;
 	padding-top: 70px;
 
-	background: #b685c6;
+	background:#A040A0;
 	
 }
 .sidebar-brand{
 	margin-top: 50px;
+}
+.nav-titulo{
+	color: whitesmoke;
+	padding: 5px;
 }
