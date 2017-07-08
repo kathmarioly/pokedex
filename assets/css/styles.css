@@ -287,5 +287,11 @@ html { height: 100%;}
 .flipkart-navbar-search{
 	padding: 20px;
 	margin-top: 50px;
-	text-align: center;
+
+}
+.pokemons img{
+
+
+	border: 1px solid black;
+	
 }

@@ -32,7 +32,7 @@ $(document).ready(function () {
 
 $(document).ready(function() {
 	$.ajax({
-        url: 'https://pokeapi.co/api/v2/pokemon/',
+		url: 'https://pokeapi.co/api/v2/pokemon/',
         type: 'GET', //tipo de dato que quiero obtener
         dataType: 'JSON',
         data: {"limit": '811'}, //cantidad de elementos que se alojan en mi json
