@@ -284,3 +284,8 @@ html { height: 100%;}
 	color: whitesmoke;
 	padding: 5px;
 }
+.flipkart-navbar-search{
+	padding: 20px;
+	margin-top: 50px;
+	text-align: center;
+}
