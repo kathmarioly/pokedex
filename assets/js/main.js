@@ -52,3 +52,12 @@ $(document).ready(function() {
 		console.log("complete");
 	})
 });
+
+
+//pokemon individual.
+$(function() {
+	$('.pop').on('click', function() {
+		$('.imagepreview').attr('src', $(this).find('img').attr('src'));
+		$('#imagemodal').modal('show');   
+	});		
+});
